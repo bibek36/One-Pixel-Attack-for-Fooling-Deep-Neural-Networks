@@ -1,5 +1,5 @@
 # Abstract
 Recent studies have uncovered the susceptibility of Deep Neural Networks (DNNs) to manipulation through small perturbations applied to input vectors. This project focuses on analyzing a specific attack scenario, where only a single pixel can be modified. To address this, we propose a novel approach utilizing differential evolution (DE) to generate one-pixel adversarial perturbations. Our method operates as a black-box attack, requiring minimal adversarial information, and demonstrates the ability to deceive a wider range of network types due to the inherent characteristics of DE. Our results reveal that, 67.97% of the natural images in the Kaggle CIFAR-10 test dataset can be perturbed to target at least one different class by modifying just one pixel, achieving an average confidence of 74.03%. This attack sheds light on the vulnerability of current DNNs to low-dimensional attacks, presenting a distinctive perspective in the field of adversarial machine learning within an extremely constrained scenario.
 
-#Read Project Report for detailed explaination
+## Read Project Report for detailed explaination
 [Project Report.pdf](https://github.com/bibek36/One-Pixel-Attack-for-Fooling-Deep-Neural-Networks/blob/c01352641ca340026db7d90bab0a7298aef41c73/Project%20Report.pdf)
